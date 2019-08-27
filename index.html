@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hand reflex training</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="color.js"></script>
+
+</head>
+<body>
+<canvas id="game"></canvas>
+<p id="current-score">Score : <span>0</span></p>
+<p id="count-down">Time remaining : <span>30</span></p>
+
+<ul id="menu">
+    <li>Your Score</li>
+    <li id="end-score">0</li>
+    <li id="restart" onclick="game.replay()">Restart</li>
+</ul>
+<div id="menu-start">
+<button type="button" id="start-game"  onclick="startGame()">Start</button>
+</div>
+<div id="display-rank-score">
+    <p>Rank Score</p>
+<ul id="rank-score">
+
+</ul>
+</div>
+<script src="cookie.js"></script>
+<script src="random.js"></script>
+<script src="target.js"></script>
+<script src="game.js"></script>
+<script src="main.js"></script>
+
+
+</body>
+</html>

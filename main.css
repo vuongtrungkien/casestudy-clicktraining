@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#game {
+    border: 1px solid black;
+    float: left;
+}
+
+#current-score {
+    padding-left: 7px;
+    font-size: 24px;
+    float: left;
+
+}
+
+#count-down {
+   float: left;
+    margin-top: 20px;
+    font-size: 18px;
+    padding-left: 7px;
+}
+
+#menu {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    list-style-type: none;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #BBC1C2;
+    font-size: 20px;
+    line-height: 40px;
+    display: none;
+}
+
+#end-score {
+    line-height: 80px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+
+#menu-start {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding: auto 0;
+    display: block;
+}
+#menu-start button {
+    width: 100%;
+    margin: 35px 0;
+    padding: 10px 0;
+    font-size: 24px;
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-weight: 500;
+    background-color: rgba(20, 39, 176, 0.20);;
+}
+#display-rank-score {
+    margin-top: 15px;
+    margin-left: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+    float: left;
+    width: 150px;
+    height: 150%;
+}
+#display-rank-score p {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 28px;
+}
+#rank-score {
+
+    position: relative;
+    list-style-type: decimal;
+    top: 20px;
+    left: 40px;
+
+}
