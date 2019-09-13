@@ -16,7 +16,7 @@
 }
 
 #count-down {
-   float: left;
+    float: left;
     margin-top: 20px;
     font-size: 18px;
     padding-left: 7px;
@@ -46,7 +46,6 @@
 }
 
 
-
 #menu-start {
     width: 120px;
     height: 120px;
@@ -59,6 +58,7 @@
     padding: auto 0;
     display: block;
 }
+
 #menu-start button {
     width: 100%;
     margin: 35px 0;
@@ -70,20 +70,27 @@
     font-weight: 500;
     background-color: rgba(20, 39, 176, 0.20);;
 }
+
 #display-rank-score {
     margin-top: 15px;
     margin-left: 5px;
-    border: 1px solid black;
-    border-radius: 15px;
+
+
     float: left;
     width: 150px;
     height: 150%;
 }
+
 #display-rank-score p {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
     margin-top: 20px;
     margin-left: 10px;
-    font-size: 28px;
+    font-size: 22px;
+    text-align: center;
 }
+
 #rank-score {
 
     position: relative;
