@@ -37,3 +37,4 @@ window.addEventListener("resize", function (event) {
     game.setWindow(event.target)
 });
 
+document.getElementById("rank-score").innerHTML = displayRankScore();
