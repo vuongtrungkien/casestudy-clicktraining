@@ -9,7 +9,7 @@ let Game = function (canvas, window) {
 };
 
 Game.prototype.createTarget = function () {
-    if (this.targets.length < 18) {
+    if (this.targets.length < 23) {
         let target = new Target(this);
         this.targets.push(target);
     }
